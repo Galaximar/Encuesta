@@ -1,0 +1,47 @@
+.accordeon {
+  .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: white !important;
+    .container {
+      div:nth-child(odd) {
+        padding: 15px;
+        background-color: #e0e0e0;
+        color: black;
+      }
+      div:nth-child(even) {
+        padding: 15px;
+        background-color: #757575;
+        color: white;
+      }
+    }
+  }
+
+  .open {
+    max-height: 1000px;
+  }
+  .close {
+    max-height: 0;
+  }
+}
+
+@keyframes openAnimation {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes closeAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}

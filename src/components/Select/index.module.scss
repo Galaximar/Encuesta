@@ -1,0 +1,29 @@
+@import "../../styles/mixins/mixins";
+
+.container {
+  position: relative;
+  width: 100%;
+  .content {
+    display: none;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.08) 0 2px 4px 0;
+    margin-top: 2px;
+
+    &--visible {
+      border-radius: 10px;
+      position: absolute;
+      width: 100%;
+      display: block;
+    }
+  }
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.errorMessage {
+  @include errorMessage;
+}

@@ -1,0 +1,19 @@
+.button {
+  border: none;
+  border-radius: 20px;
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.primary {
+  background-color: #ff8965d7;
+  color: white;
+}
+.disabled {
+  background-color: #757575;
+  color: white;
+}

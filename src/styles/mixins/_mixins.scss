@@ -1,0 +1,13 @@
+@mixin errorMessage {
+  font-family: "Montserrat", "Segoe UI", sans-serif;
+  font: {
+    size: 0.75rem;
+    weight: 400;
+  }
+  letter-spacing: 0.025rem;
+  color: #d9585e;
+  font-weight: 700 !important;
+  border-color: #d9585e;
+  margin-top: 2px;
+  font-weight: 700;
+}

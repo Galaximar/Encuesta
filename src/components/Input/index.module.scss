@@ -1,0 +1,30 @@
+@import "../../styles/mixins/mixins";
+
+.inputContainer {
+  position: relative;
+  width: 100%;
+  overflow: visible;
+
+  .title {
+    margin-bottom: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-transform: capitalize;
+  }
+
+  .input {
+    width: 100%;
+    padding-left: 20px;
+    height: 2.5rem;
+    border-radius: 20px;
+    border: 1px solid black;
+    letter-spacing: 0.8px;
+    background-color: transparent;
+    color: black;
+  }
+}
+
+.errorMessage {
+  @include errorMessage;
+}

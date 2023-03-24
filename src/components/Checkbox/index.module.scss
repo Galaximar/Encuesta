@@ -1,0 +1,9 @@
+@import "../../styles/mixins/mixins";
+
+.check {
+  display: flex;
+  gap: 10px;
+}
+.errorMessage {
+  @include errorMessage;
+}

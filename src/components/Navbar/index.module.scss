@@ -1,0 +1,25 @@
+.nav {
+  background-color: #f4511e;
+  width: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 20px;
+  ul {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      a {
+        color: white;
+        padding: 0 5px;
+      }
+      .active {
+        background-color: #752a13;
+        padding: 20px 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        transition: 0.2s linear;
+      }
+    }
+  }
+}
