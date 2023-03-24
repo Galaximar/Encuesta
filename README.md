@@ -20,4 +20,4 @@ Estilos creados manualmente, así como una lógica del formulario, creando un ho
 También se creo un hook para detectar si se clickeo fuera de una referencia dada.
 Se uso PropTypes en algunos componentes para facilitar su documentación.
 
-# DEPLOY: encuesta-form.vercel.app
+<b>DEPLOY: encuesta-form.vercel.app</b>
